@@ -99,7 +99,6 @@ body {
   margin-bottom: 20px;
   -webkit-column-break-inside: avoid;
   padding: 24px;
-  padding-bottom: 24px;
   box-sizing: border-box;
 
 }
@@ -123,4 +122,43 @@ body {
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: rgba(255,255,255,.2);
+}
+
+tr:nth-child(even){
+  background-color: rgba(255,255,255,.1);
+}
+
+th, td {
+  border: 1px solid #676e77;
+  padding: 10px;
+}
+
+a, a:visited {
+  color: white;
+}
+
+.med-link-container {
+  display:none;
+}
+
+.insert-click {
+  cursor: pointer;
+}
+
+.insert-click a {
+  text-decoration: underline;
+}
+
+span {
+  margin-left: 50px;
+  font-size: 10pt;
 }
